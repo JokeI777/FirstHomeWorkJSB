@@ -13,7 +13,6 @@ public class ConstructorMainController {
         return plugService;
     }
 
-    @Autowired
     public ConstructorMainController(PlugService plugService){
         this.plugService = plugService;
     }
